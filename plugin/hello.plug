@@ -1,0 +1,9 @@
+[Core]
+Name = Hello
+Module = hello
+
+[Python]
+Version = 3
+
+[Documentation]
+Descritiption = An example plugin for ErrBot
