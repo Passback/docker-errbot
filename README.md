@@ -26,9 +26,9 @@ So to run the container:
 		-e ERRBOT_NAME='...' \
 		<username>/errbot
 
-Within the container ErrBot is run in the foreground and send all the logs to
+Within the container ErrBot is run in the foreground and sends all the logs to
 STDOUT, this is done to help debugging during  plugin development.  You can 
-easily add your own plugins by creating the appropriat .plug and .py files in 
+easily add your own plugins by creating the appropriate .plug and .py files in 
 the plugins directory before building the container.
 
 We are in the process of putting automated builds and pushes of the containers
@@ -39,4 +39,4 @@ to the [Passback Docker Hub](https://hub.docker.com/u/passback/) in place using
 For what it's worth, the files in this repository are under the Apache 2.0 license.
 
 ## Contact
-Passback Consulting http://www.passback.co.uk [enquiries@passback.co.uk](mailto:enquiries@passback.co.uk)
+Passback Consulting http://www.passback.co.uk [<enquiries@passback.co.uk>](mailto:enquiries@passback.co.uk)
