@@ -4,7 +4,7 @@ a [Docker Container](http://www.docker.com) that provides the
 [ErrBot](http://errbot.io) chatbot.  Building should be as simple
 as cloning the repository and then running the command:
 
-	sudo docker build -rm -t <username>/errbot .
+	sudo docker build --rm -t <username>/errbot .
 
 You can change the configuration of ErrBot by editing the config.py.template
 file.  Because we use Slack, the default configuration uses that backend.  The
