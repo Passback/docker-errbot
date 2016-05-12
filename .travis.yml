@@ -10,7 +10,6 @@ before_script:
 
 script:
   - make docker-build
-  - make docker-push
 
 after_success:
   - make docker-tag
